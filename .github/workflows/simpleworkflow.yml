@@ -12,7 +12,7 @@ on:
   #issues:
   #  types: [opened]
   schedule:
-    - cron: '45 2,16 16 12 *'
+    - cron: '51 2　16 12 *'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
