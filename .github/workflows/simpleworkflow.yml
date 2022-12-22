@@ -7,10 +7,10 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   #push:
   #  branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  #issues:
-  #  types: [opened]
+  # pull_request:
+  #  branches: [ "main" ]
+  issues:
+    types: [opened]
   schedule:
     - cron: '51 2　16 12 *'
   # Allows you to run this workflow manually from the Actions tab
@@ -26,7 +26,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - if 
+        uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
