@@ -10,7 +10,7 @@ on:
   # pull_request:
   #  branches: [ "main" ]
   issues:
-    types: [opened actor]
+    types: [opened]
   schedule:
     - cron: '51 2　16 12 *'
   # Allows you to run this workflow manually from the Actions tab
