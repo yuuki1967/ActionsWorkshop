@@ -1,7 +1,7 @@
 # This is a basic workflow to help you get started with Actions
 # event open issue
 
-name: Simple Workflow
+name: Simple Workflow with the event issues
 
 # Controls when the workflow will run
 on:
